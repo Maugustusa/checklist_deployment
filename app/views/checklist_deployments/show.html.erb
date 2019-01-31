@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @checklist_deployment.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @checklist_deployment.description %>
+</p>
+
+<%= link_to 'Edit', edit_checklist_deployment_path(@checklist_deployment) %> |
+<%= link_to 'Back', checklist_deployments_path %>
